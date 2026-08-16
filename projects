@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FP&A Forecast & Variance Analysis portfolio case by Vinicius Rocha.">
+  <title>FP&A Forecast & Variance Analysis | Vinicius Rocha</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .project-hero{max-width:1160px;margin:auto;padding:105px 24px 62px;border-bottom:1px solid rgba(255,255,255,.06)}
+    .breadcrumbs{font-size:13px;color:#98a8ba;margin-bottom:28px}
+    .breadcrumbs a{color:#5ed6a8}
+    .project-hero h1{font-size:clamp(44px,7vw,78px);max-width:950px}
+    .project-intro{font-size:19px;color:#98a8ba;max-width:800px}
+    .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}
+    .pill{border:1px solid #223143;border-radius:999px;padding:7px 11px;color:#c8d2de;font-size:12px}
+    .case-content{max-width:1160px;margin:auto;padding:70px 24px}
+    .case-block{border-bottom:1px solid rgba(255,255,255,.06);padding:0 0 62px;margin-bottom:62px}
+    .case-block h2{font-size:clamp(32px,5vw,52px)}
+    .split{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:start}
+    .case-copy{color:#c8d2de;font-size:16px}
+    .case-copy strong{color:#f4f7fb}
+    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0}
+    .kpi{background:#101a26;border:1px solid #223143;border-radius:14px;padding:20px}
+    .kpi span{display:block;color:#98a8ba;font-size:12px}
+    .kpi strong{font-size:29px;display:block;margin:4px 0}
+    .kpi em{font-size:12px;color:#5ed6a8;font-style:normal}
+    .waterfall{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;align-items:end;height:260px;padding:20px;border:1px solid #223143;border-radius:15px;background:#0d1620}
+    .wf{height:100%;display:flex;align-items:end;justify-content:center;position:relative;padding-bottom:40px}
+    .wf i{display:block;width:70%;background:linear-gradient(180deg,#5ed6a8,#7fa8ff);border-radius:7px 7px 0 0}
+    .wf b{position:absolute;top:5px;font-size:13px}
+    .wf small{position:absolute;bottom:4px;color:#98a8ba;text-align:center;font-size:11px}
+    .management-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .management-grid div{background:#101a26;border:1px solid #223143;border-radius:14px;padding:22px}
+    .management-grid strong{color:#5ed6a8}
+    .management-grid p{color:#98a8ba;margin-bottom:0}
+    .download-box{background:linear-gradient(135deg,rgba(94,214,168,.1),rgba(127,168,255,.08));border:1px solid #2b4952;border-radius:18px;padding:32px;display:flex;justify-content:space-between;align-items:center;gap:25px}
+    .download-box h3{margin-top:0}
+    .download-box p{color:#98a8ba;max-width:650px}
+    .case-table{width:100%;border-collapse:collapse;margin-top:24px;font-size:14px}
+    .case-table th,.case-table td{padding:12px;border-bottom:1px solid #223143;text-align:right}
+    .case-table th:first-child,.case-table td:first-child{text-align:left}
+    .case-table th{color:#98a8ba;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+    .positive{color:#5ed6a8}.negative{color:#ff9d9d}
+    @media(max-width:850px){.split,.kpis,.management-grid{grid-template-columns:1fr}.download-box{display:block}.waterfall{height:220px}.wf i{width:80%}}
+  </style>
+</head>
+<body>
+<header class="nav-wrap">
+  <nav class="nav">
+    <a class="brand" href="../index.html">VR<span>.</span></a>
+    <div class="nav-links">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="project-hero">
+  <div class="breadcrumbs"><a href="../index.html">Home</a> / Projects / FP&A Forecast & Variance Analysis</div>
+  <div class="eyebrow">PORTFOLIO CASE • FP&A • SYNTHETIC DATA</div>
+  <h1>Forecast & Variance Analysis</h1>
+  <p class="project-intro">
+    A rolling FP&A model designed to demonstrate how I structure monthly performance reporting,
+    update financial forecasts, identify profitability drivers and translate numbers into management actions.
+  </p>
+  <div class="pill-row">
+    <span class="pill">Rolling Forecast</span><span class="pill">Budget vs Actual</span>
+    <span class="pill">EBITDA</span><span class="pill">Variance Analysis</span>
+    <span class="pill">CAPEX</span><span class="pill">Excel Modeling</span>
+  </div>
+  <div class="hero-actions">
+    <a class="btn primary" href="../downloads/Vinicius_Rocha_FP&A_Forecast_Variance_Model.xlsx">Download Excel Model</a>
+    <a class="btn ghost" href="../index.html#projects">Back to Portfolio</a>
+  </div>
+</section>
+
+<div class="case-content">
+  <section class="case-block split">
+    <div>
+      <div class="section-label">BUSINESS QUESTION</div>
+      <h2>Revenue is growing. Why is margin still under pressure?</h2>
+    </div>
+    <div class="case-copy">
+      <p><strong>Scenario:</strong> A synthetic offshore services company is running above its revenue budget during 2026, but EBITDA margin is not expanding at the same pace.</p>
+      <p>The finance team needs to update the remaining-month forecast, understand the main cost drivers and provide leadership with a clear view of expected full-year performance.</p>
+      <p><strong>Objective:</strong> connect operational performance to the P&L and highlight the actions required to protect profitability.</p>
+    </div>
+  </section>
+
+  <section class="case-block">
+    <div class="section-label">EXECUTIVE VIEW</div>
+    <h2>2026 rolling forecast</h2>
+    <div class="kpis">
+      <div class="kpi"><span>Forecast Revenue</span><strong>$51.7M</strong><em>+7.1% vs Budget</em></div>
+      <div class="kpi"><span>Forecast EBITDA</span><strong>$9.6M</strong><em>18.6% margin</em></div>
+      <div class="kpi"><span>Revenue Upside</span><strong>$3.4M</strong><em>FY variance</em></div>
+      <div class="kpi"><span>Forecast CAPEX</span><strong>$5.6M</strong><em>~on budget</em></div>
+    </div>
+    <table class="case-table">
+      <thead><tr><th>Metric ($mm)</th><th>Budget</th><th>Forecast</th><th>Variance</th></tr></thead>
+      <tbody>
+        <tr><td>Revenue</td><td>48.3</td><td>51.7</td><td class="positive">+3.4</td></tr>
+        <tr><td>COGS</td><td>26.5</td><td>28.9</td><td class="negative">+2.4</td></tr>
+        <tr><td>OPEX</td><td>12.4</td><td>13.2</td><td class="negative">+0.8</td></tr>
+        <tr><td>EBITDA</td><td>9.3</td><td>9.6</td><td class="positive">+0.3</td></tr>
+        <tr><td>CAPEX</td><td>5.6</td><td>5.6</td><td>-</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="case-block">
+    <div class="section-label">VARIANCE BRIDGE</div>
+    <h2>Growth is being absorbed by cost pressure.</h2>
+    <div class="waterfall">
+      <div class="wf"><b>$9.3M</b><i style="height:72%"></i><small>Budget<br>EBITDA</small></div>
+      <div class="wf"><b class="positive">+$3.4M</b><i style="height:44%"></i><small>Revenue<br>Upside</small></div>
+      <div class="wf"><b class="negative">-$2.4M</b><i style="height:35%"></i><small>COGS<br>Pressure</small></div>
+      <div class="wf"><b class="negative">-$0.8M</b><i style="height:18%"></i><small>OPEX<br>Run-rate</small></div>
+      <div class="wf"><b>$9.6M</b><i style="height:76%"></i><small>Forecast<br>EBITDA</small></div>
+    </div>
+  </section>
+
+  <section class="case-block">
+    <div class="section-label">MANAGEMENT INTERPRETATION</div>
+    <h2>What I would communicate to leadership.</h2>
+    <div class="management-grid">
+      <div><strong>1. What changed?</strong><p>Revenue and commercial performance are above plan, creating a meaningful top-line upside.</p></div>
+      <div><strong>2. What is the risk?</strong><p>Higher supplier, logistics and mobilization costs are consuming most of the revenue benefit.</p></div>
+      <div><strong>3. What should happen next?</strong><p>Reforecast remaining-month COGS and OPEX, review high-impact cost drivers weekly and preserve disciplined CAPEX timing.</p></div>
+    </div>
+  </section>
+
+  <section class="case-block split">
+    <div>
+      <div class="section-label">MODEL DESIGN</div>
+      <h2>How the workbook is structured.</h2>
+    </div>
+    <div class="case-copy">
+      <p><strong>Assumptions:</strong> base, downside and upside drivers for revenue, COGS, OPEX and CAPEX.</p>
+      <p><strong>Monthly P&L:</strong> budget, actuals, remaining-month forecast, FY outlook and variance calculations.</p>
+      <p><strong>Dashboard:</strong> leadership KPIs, monthly revenue trend and concise executive commentary.</p>
+      <p><strong>Financial-model convention:</strong> hardcoded assumptions are blue, formulas are black and links from other worksheets are green.</p>
+    </div>
+  </section>
+
+  <section class="download-box">
+    <div>
+      <div class="section-label">DOWNLOADABLE MODEL</div>
+      <h3>Explore the full Excel workbook</h3>
+      <p>The workbook contains formulas, scenario assumptions, monthly P&L, variance drivers and a management dashboard. All data is synthetic and created solely for portfolio demonstration.</p>
+    </div>
+    <a class="btn primary" href="../downloads/Vinicius_Rocha_FP&A_Forecast_Variance_Model.xlsx">Download .xlsx</a>
+  </section>
+</div>
+</main>
+
+<footer>
+  <span>© 2026 Vinicius Rocha</span>
+  <span>Synthetic portfolio case — no confidential company data.</span>
+</footer>
+</body>
+</html>
